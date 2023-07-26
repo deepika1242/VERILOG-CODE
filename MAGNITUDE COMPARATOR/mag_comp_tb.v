@@ -1,4 +1,4 @@
-module mag_comp_tb;
+module mag_comp_tb; 
 
 	// Inputs
 	reg A;
