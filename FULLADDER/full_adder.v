@@ -1,4 +1,4 @@
-module fa(
+module full_adder(
     input a,b,c,
     output s,co
     );
