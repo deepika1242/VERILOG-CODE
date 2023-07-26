@@ -10,12 +10,12 @@ module mag_com_4bit_tb;
 	wire L;
 
 	// Instantiate the Unit Under Test (UUT)
-	magcom4bit uut (
-		.a(a), 
-		.b(b), 
-		.e(e), 
-		.g(g), 
-		.l(l)
+	mag_com_4bit uut (
+		.A(A), 
+		.B(B), 
+		.E(E), 
+		.G(G), 
+		.L(L)
 	);
 
 	initial begin
