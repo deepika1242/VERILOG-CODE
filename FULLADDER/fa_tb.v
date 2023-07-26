@@ -1,4 +1,3 @@
-
 module fa_tb;
 
 	// Inputs
@@ -7,16 +6,16 @@ module fa_tb;
 	reg c;
 
 	// Outputs
-	wire d;
-	wire bo;
+	wire s;
+	wire co;
 
 	// Instantiate the Unit Under Test (UUT)
-	fs uut (
+	fa uut (
 		.a(a), 
 		.b(b), 
 		.c(c), 
-		.d(d), 
-		.bo(bo)
+		.s(s), 
+		.co(co)
 	);
 
 	initial begin
@@ -33,8 +32,6 @@ module fa_tb;
 		#100 a = 1;b = 0;c=1;
 		#100 a = 1;b = 1;c=0;
 		#100 a = 1;b = 1;c=1;
-        
-		// Add stimulus here
 
 	end
       
