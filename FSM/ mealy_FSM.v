@@ -1,3 +1,7 @@
+//FINITE STATE MACHINE(FSM)
+
+
+
 module mealy_FSM(
     input x,clk,rst,
     output  reg y
